@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monarch</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- TWBSColor: https://work.smarchal.com/twbscolor/css/f2860dce7600e8e8e8fff3db1 -->
+  <style>
+  .nav > li > a {
+    color: #f2860d;
+  }
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:focus,
+  .nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: #ff9e1c;
+  }
+  .brand {
+    color: #ff9e1c;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #d04817;
+    border-color: #631909;
+  }
+
+  .btn-primary:hover, .btn-primary:active, .btn-primary:link {
+    color: #fff;
+    background-color: #c03807;
+    border-color: #530900;
+  }
+
+  .jumbotron {
+    background-color: #f28424;
+  }
+
+  .jumbotrontext {
+    color: #000;
+  }
+  </style>
+  <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto">
+  <style>
+    body {
+      font-family: 'Roboto', serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="row">
+        <div class="col-md-3">
+          <center><h1 class="brand">Monarch</h1></center>
+        </div>
+        <div class="col-md-9">
+          <ul class="nav nav-pills nav-justified" style="padding-top: 20px;">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#about">About</a></li>
+            <li role="presentation"><a href="#demo">Demo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="jumbotron">
+          <img src="http://www.grahamowengallery.com/new_york_2011/monarch.jpg" alt="Monarch!" width="100%" />
+          <h1 style="color: #000;">Explore the world.</h1>
+          <p class="jumbotrontext">Become a monarch. Fly across the landscape in an immersive experience.</p>
+          <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h1 id="about" style="font-size: 132px;">About</h1>
+          <img src="media/ss1.png" width="100%" style="margin-top: 10px" /><br />
+          <img src="media/ss2.png" width="100%" style="margin-top: 10px" /><br />
+        </div>
+        <div class="col-md-8">
+          <p class="lead">You will become a monarch butterfly, migrating across the vast landscape. Your experience will be immersive and realistic; experience
+            the true monarch experience using your phone's virtual reality.</p>
+
+          <h2 style="font-size: 96px;">Challenging.</h2>
+          <p class="lead">As a monarch butterfly, you will migrate across the vast expanse to find your new home. It is your goal to find a milkweed tree and lay eggs so you may pass
+            on the monarch experience to the next generation.</p>
+
+          <h2 style="font-size: 96px;">Educational.</h2>
+          <p class="lead">In order to survive as a butterfly, you must adapt. Nature selects only the fittest to survive, so you must show all that you've got in order to win.
+            Learn what it's like for a monarch butterfly to survive in the wild.</p>
+
+          <h2 style="font-size: 96px;">Realistic.</h2>
+          <p class="lead">This isn't an 8-bit Mario game. This is virtual reality. What you see will be dreams turned into reality. Both virtual reality and monarch migrations are truly
+            amazing experiences, so we combined them together to bring you true amazingness.</p>
+
+          <h2 style="font-size: 96px;">Accessible.</h2>
+          <p class="lead">Welcome to the most accessible form of virtual reality possible: your smartphone. You can soar across the continent in the palm of your hands.</p>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-4">
+          <h1 id="demo" style="font-size: 132px;">Demo</h1>
+        </div>
+        <div class="col-md-8">
+          <p style="font-size: 48px;"><b>Experience Monarch on iOS and Android.</b></p>
+          <p><a class="btn btn-default" href="monarch.apk">Download for iOS</a>&nbsp;<a class="btn btn-success" href="monarch.apk">Download for Android</a></p>
+          <p class="lead">What you'll need:</p>
+          <ul>
+            <li>A phone compatible with Google Cardboard</li>
+            <li>A Google Cardboard-like VR headset</li>
+            <li>Android or iOS</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-4">
+          <h1 id="credits">Credits</h1>
+          <img src="media/team.jpg" width="100%" />
+        </div>
+        <div class="col-md-8">
+          <p>Monarch was created by the Monarch Development Team: Jatin Kumar, Trevor Thai Kim Nguyen, Sammy Shin, and Jeffrey Wang.</p>
+          <p>Monarch uses Unity and Google Cardboard.</p>
+          <p>Monarch was created at EARTHACK 2017 as part of Earth Day TX. Special thanks to State Farm for providing us VR headsets.</p>
+        </div>
+      </div>
+      <div class="row" style="padding: 20px;">
+        <p>&copy; 2017 Monarch Development Team. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
